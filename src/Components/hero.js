@@ -50,12 +50,14 @@ const Hero = () => {
 					<p1>Welcome to Kongonia</p1>
 					<div className="mint-box">
 						<img src={head1} alt="head" />
-						<h3>Genesis</h3>
-						<h3>Collection</h3>
+						<h3>Genesis Collection</h3>
+						<p1>SOLD OUT</p1>
+
 						<button className="mint-btn">
-// 							<Link to={'/mint'}>MINTING NOW!!</Link>
+<a href='https://arbiscan.io/address/0x7c4ba0fd433d6cce82f96d671e9ceee2f16d0d5f'> Contract </a>
 						</button>
 					</div>
+					
 				</div>
 			</div>
 		</div>
