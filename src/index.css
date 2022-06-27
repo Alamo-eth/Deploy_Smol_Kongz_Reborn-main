@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'VT323', monospace;
+	font-weight: 400;
+}
+
+
+body{
+	background-color: #1B3333;
+	color: #FFDBAC;
+	font-size: 24px;
+}
+
+img{
+	max-width: 100%;
+	width: 100%;
+}
+
+p{
+	font-size: inherit;
+}
+
+a{
+	font-size: inherit;
+}
+
+body h1{
+	font-size: 80px;
+	line-height: 100%;
+	color: #F1C17A;
+}
+
+body h2{
+	font-size: 56px;
+	line-height: 100%;
+	color: #F1C17A;
+}
+
+body h3{
+	font-size: 48px;
+	line-height: 100%;
+	color: #F1C17A;
+}
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
