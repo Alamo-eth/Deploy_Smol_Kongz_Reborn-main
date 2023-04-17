@@ -71,31 +71,31 @@ const teams = [
 ]
 
 const moderators = [
-  {
-    name: "Heady lele",
-    image: moderator1,
-    link: "https://twitter.com/Heady_Lele"
-  },
-  {
-    name: "Sake",
-    image: moderator2,
-    link: "https://twitter.com/stephen_sake"
-  },
-  {
-    name: "Uguma",
-    image: moderator3,
-    link: "https://twitter.com/EmmanuelUguma"
-  },
-  {
-    name: "Subversieve",
-    image: moderator4,
-    link: "https://twitter.com/subversieve"
-  },
-  {
-    name: "Owrange",
-    image: moderator5,
-    link: "https://twitter.com/Owrang33"
-  }
+  // {
+  //   name: "Heady lele",
+  //   image: moderator1,
+  //   link: "https://twitter.com/Heady_Lele"
+  // },
+  // {
+  //   name: "Sake",
+  //   image: moderator2,
+  //   link: "https://twitter.com/stephen_sake"
+  // },
+  // {
+  //   name: "Uguma",
+  //   image: moderator3,
+  //   link: "https://twitter.com/EmmanuelUguma"
+  // },
+  // {
+  //   name: "Subversieve",
+  //   image: moderator4,
+  //   link: "https://twitter.com/subversieve"
+  // },
+  // {
+  //   name: "Owrange",
+  //   image: moderator5,
+  //   link: "https://twitter.com/Owrang33"
+  // }
 ]
 
 
@@ -151,6 +151,7 @@ const Teams = () => {
           </div>
         </div>
       </div>
+
       <div className="teams-section">
       <div className="container">
         <h2>Team Kongz</h2>
@@ -161,13 +162,15 @@ const Teams = () => {
         </div>
       </div>
     </div>
-    <div className="teams-section">
+    
+   <div className="teams-section">
       <div className="container">
         <h2>Smolerators</h2>
         <div className="team-wrapper">
           {moderators.map((moderator, i) => (
             <TeamBox key={i} {...moderator} />
           ))}
+
           {/* </div>
         </div>
       </div>
