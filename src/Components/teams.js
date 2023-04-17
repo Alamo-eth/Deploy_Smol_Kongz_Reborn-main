@@ -19,19 +19,19 @@ import moderator5 from '../images/moderator5.png';
 const founders = [
   {
     name: "Veinos",
-    title: "Leader",
+    title: "Founder",
     image: founder1,
     link: "https://twitter.com/Veinos_crypto"
   },
   {
     name: "Alamo",
-    title: "Advisor",
+    title: "Founder",
     image: founder2,
     link: "https://twitter.com/alamo_pcc"
   },
   {
     name: "Juca",
-    title: "Discord Wizard",
+    title: "Genesis Founder",
     image: founder3,
     link: "https://twitter.com/OgJuca"
   },
